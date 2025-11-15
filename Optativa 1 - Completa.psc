@@ -1,9 +1,5 @@
 Proceso CalculadoraCompleta
 
-
-
-
-
     Definir opcion Como Entero
     Definir n1, n2, r Como Real
     Definir figura Como Entero
@@ -247,4 +243,5 @@ Proceso CalculadoraCompleta
     Escribir "Programa finalizado"
 	
 FinProceso
+
 
