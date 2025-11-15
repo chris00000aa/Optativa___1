@@ -1,3 +1,67 @@
+# Proyecto Optativa 1: Calculadora Multifuncional Modular (PSeInt)
+
+## Visión General del Proyecto
+
+Este proyecto consiste en el desarrollo de una calculadora multifuncional implementada en **PSeInt**. El objetivo principal fue crear una herramienta robusta y modular, utilizándola como **prueba de concepto** para evaluar las capacidades de la ingeniería de *prompts* con Inteligencias Artificiales (IA) en un entorno de programación de bajo nivel y rigidez como PSeInt.
+
+El proyecto es un ejercicio de **desarrollo modular** y **manejo de lógica de control de flujo** en un lenguaje introductorio.
+
+## Módulos Implementados
+
+La arquitectura de la calculadora se basa en cuatro **SubProcesos** modulares y autocontenidos, accesibles desde un **Menú Principal de Control de Flujo**.
+
+| Módulo | Propósito | Concepto Técnico Clave | 
+| ----- | ----- | ----- | 
+| **1. Operaciones Básicas** | Suma, Resta, Multiplicación, División. | Implementación de **Manejo de Excepciones** (División por Cero). | 
+| **2. Cálculo Geométrico** | Cálculo de áreas (Círculo, Cuadrado, Triángulo, Trapecio), Radio y Diámetro. | Uso de **Constantes** (PI) y **Validación de Entradas** (dimensiones > 0). | 
+| **3. Estadística Básica** | Cálculo de Media, Mediana y Moda. | Manipulación de **Estructuras de Datos (Arreglos)** y **Algoritmos de Ordenamiento (Burbuja)**. | 
+| **4. Sucesión de Fibonacci** | Generación de N términos a partir de un número inicial. | Uso de **Ciclos (WHILE y PARA)** para implementar la lógica de secuencia. | 
+
+## Arquitectura y Lógica de Desarrollo
+
+### Estrategia de Ingeniería de Prompts (IA)
+
+Ante la dificultad de obtener código funcional de la IA con un único *prompt* complejo y detallado, se implementó la estrategia de **Ingeniería de Prompts Simples y Segmentados**:
+
+1. **Segmentación:** El proyecto se dividió en sus cuatro módulos lógicos.
+
+2. **Generación por Partes:** Se solicitó a la IA generar el código para cada SubProceso de forma aislada.
+
+3. **Depuración y Ensamblaje Manual:** Los resultados parciales fueron probados, depurados (ej. corrección de la lógica de Mediana y Moda), y ensamblados en un solo archivo, introduciendo manualmente la estructura del **Menú Principal**.
+
+### Estructura Arquitectónica
+
+La solución adoptó una estructura **Modular (`SubProceso`)** que ofrece las siguientes ventajas:
+
+* **Legibilidad:** Aísla la lógica compleja de cada función.
+
+* **Mantenibilidad:** Permite la modificación de un módulo sin afectar a los demás.
+
+* **Robustez:** Cada módulo implementa su propia **validación de entradas (`REPETIR... HASTA QUE`)** para asegurar que el programa no colapse por datos incorrectos.
+
+## Instrucciones de Uso
+
+Para ejecutar el programa, debe tener instalado el intérprete de PSeInt.
+
+1. Descargue el archivo `CalculadoraCompleta_Mejorada.psc` de este repositorio.
+
+2. Abra el archivo directamente con PSeInt.
+
+3. Ejecute el "Proceso Principal".
+
+4. Siga las instrucciones del menú para navegar entre los cuatro módulos.
+
+## Integrantes del Equipo
+
+| Nombre | Rol Principal | 
+| ----- | ----- | 
+| Ana Laura Flores Barcenas | Documentación y Pruebas Unitarias | 
+| Carlos Perez Garcia | Arquitectura del Menú y Control de Flujo | 
+| Christian Jesus Pacheco Robles | Implementación y Depuración de Módulos | 
+| Keylie Gonzales Soberanis | Ingeniería de Prompts y Revisión Lógica | 
+
+Consulta el archivo [`optativa_1_documentacion.md`](optativa_1_documentacion.md) para acceder a la documentación completa sobre el proceso de desarrollo, dificultades encontradas y justificación del propósito de cada función.
+
 # Optativa-1
 Optativa 1 - Documentaciòn
 
