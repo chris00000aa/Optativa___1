@@ -1,6 +1,12 @@
 # Optativa-1
 Optativa 1 - Documentaciòn
 
+Integrantes:
+Ana Laura Flores Barcenas
+Carlos Perez Garcia
+Christian Jesus Pacheco Robles
+Keylie Gonzales Soberanis
+
 Leer comentarios en codigo y documentacion en readme.
 
 - Qué hicieron (descripción del proyecto)
