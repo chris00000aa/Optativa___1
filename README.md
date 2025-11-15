@@ -1,11 +1,8 @@
-# Optativa-1
-Optativa 1 - Documentación
-
 Integrantes:
-Ana Laura Flores Barcenas
-Carlos Perez Garcia
-Christian Jesus Pacheco Robles
-Keylie Gonzales Soberanis
+* Ana Laura Flores Barcenas
+* Carlos Perez Garcia
+* Christian Jesus Pacheco Robles
+* Keylie Gonzales Soberanis
 
 ## Leer comentarios en codigo y documentacion en readme.
 
